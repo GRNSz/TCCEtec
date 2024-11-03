@@ -1,0 +1,25 @@
+{
+    "name": "gusta/tcc-etec",
+    "description": "TCC do curso de desenvolvimento de sistemas da Etec Zona Leste, integrantes do grupo no Readme.md do projeto.",
+    "type": "project",
+    "require": {
+        "monolog/monolog": "^3.7",
+        "pestphp/pest": "^3.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gustavo Ribeiro",
+            "email": "gugzribeiro@gmail.com"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
